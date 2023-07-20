@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body bgcolor="cyan">
+   <ul>
+          <h1> Form_1 </h1>
+    <br>
+    <form>
+      <!-- <label for="n"> Name </label>
+      <label for="rn"> Roll no </label>
+      <label for="em"> Email </label>
+      <label for="bd"> Birth date </label>
+      <label for="el"> Are you eligible </label>
+      <label for="m"> Male </label>
+      <label for="f"> Female </label>
+      <label for="vi"> Vishal </label>
+      <label for="txt"> Write about yourself </label>
+      <label for="sub"> Submit </label>
+      <label for="res"> Reset </label> -->
+        <div>
+           <b> Name </b>: <input type="text" id="n">
+        </div>
+        <!-- div tag basically divides the program into parts -->
+        <br>
+        <div>
+      <b>  Roll no </b>. :  <input type="number" id="rn"> 
+            <!-- Above command line can also be written as <input type="number" name="Roll_no." -->
+</div>
+<br>
+
+<div>
+<b> Email </b> : <input type = "email" id="em">
+ </div>
+<br>
+<div>
+   <b> Birth date</b> : <input type="date" id="bd"> 
+</div>
+<br>
+<div>
+   <b> Are you eligible </b><input type="checkbox" id="el">
+</div>
+<br>
+
+<div>
+   <b> Gender</b> :
+    </div>
+    <br>
+   Male   : <input type="radio" id="m"><br>
+   Female : <input type="radio" id="f"><br>
+   Vishal : <input type="radio" id="vi"> 
+   <br>
+   <br>
+
+   <b>Write about yourself :</b>
+   <br><br> <textarea id="txt"></textarea>
+   <br> <br>
+
+   <div>
+   <b> Time slot : <select name="myTime"> </b>
+   <options value = "Morn"> 8_am_to_2_pm </options>   
+   <options value = "Even"> 3_pm_to_9_pm </options>   
+   </select>
+   <br>
+   <br>
+   </div>
+
+
+   <input type="reset" name="Reset" color="pink" id="res">
+   <input type="submit" name="Submit" color="red" id="sub">
+   <br><br>
+   
+
+    </form>
+   </ul>
+</body>
+
+</html>
